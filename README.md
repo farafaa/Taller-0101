@@ -1,66 +1,66 @@
-Taller 1 – Fundamentos y Aplicaciones Básicas en Python
+# Taller 1 — Ejercicios en Python
 
-Este repositorio contiene el desarrollo del Taller 1 de programación en Python, compuesto por una serie de ejercicios prácticos enfocados en el fortalecimiento de la lógica computacional y la resolución estructurada de problemas.
+Repositorio con una colección de ejercicios resueltos en Python pertenecientes al "Taller 1".
 
-El proyecto está organizado en archivos independientes, donde cada script implementa una solución específica, permitiendo practicar conceptos fundamentales del lenguaje Python.
+Descripción
 
-⸻
+Este repositorio reúne las soluciones del "Taller 1" y está pensado como material de práctica y referencia para aprender programación en Python.
 
-📌 Propósito del proyecto
+Incluye ejercicios orientados a fortalecer conceptos fundamentales como estructuras de control, funciones, manejo de listas y diccionarios, cadenas, entrada/salida, y algoritmos básicos (búsqueda, ordenamiento, recursión, procesamiento de datos, etc.).
 
-El objetivo principal de este taller es consolidar las bases de la programación mediante ejercicios progresivos que desarrollan:
-	•	Pensamiento lógico y algorítmico
-	•	Uso de variables y operadores
-	•	Aplicación de estructuras condicionales
-	•	Implementación de ciclos repetitivos
-	•	Cálculo matemático aplicado
-	•	Manejo básico de datos
-	•	Organización modular del código
-
-Cada ejercicio está diseñado para ejecutarse de forma autónoma, facilitando su análisis y comprensión individual.
-
-⸻
-
-📂 Estructura del repositorio
-
-El proyecto está compuesto por los siguientes archivos:
-	•	index.py
-Archivo principal que permite ejecutar los ejercicios desde un menú interactivo en consola.
-	•	algoritmo.py
-Contiene funciones auxiliares y ejemplos prácticos utilizados para reforzar cálculos como suma, promedio y otras operaciones básicas.
-	•	ejercicio2.py – ejercicio25.py
-Conjunto de ejercicios prácticos enfocados en diferentes situaciones académicas y aplicaciones básicas.
-
-⸻
-
-🧠 Contenido de los ejercicios
-
-Los ejercicios abordan los siguientes temas:
-	•	Cálculo de áreas y conversiones de unidades.
-	•	Cálculo de salarios con y sin horas extra.
-	•	Determinación de número par o impar.
-	•	Validación de mayoría de edad.
-	•	Aplicación de descuentos e impuestos (IVA).
-	•	Cálculo de comisiones simples y escalonadas.
-	•	Promedios académicos y notas ponderadas.
-	•	Conversión de moneda.
-	•	Cálculo de interés simple y compuesto.
-	•	Control de inventario.
-	•	Cálculo de tarifas según condiciones (envíos, servicios públicos).
-	•	Totalización y promedio de ventas.
-
-Los últimos ejercicios integran múltiples conceptos, permitiendo aplicar condicionales, operaciones matemáticas y estructuras de control en un mismo problema.
-
-⸻
-
-⚙️ Requisitos
-	•	Python 3 instalado.
-
-Para ejecutar un archivo específico:
-específico:
-
-🎯 Enfoque académico
-
-Este repositorio tiene un carácter formativo y práctico. Está orientado al fortalecimiento de habilidades básicas en programación, promoviendo la comprensión de la estructura lógica de los programas y el desarrollo de soluciones claras y organizadas.
+Cada script `ejercicioN.py` implementa la solución del ejercicio N; el archivo [index.py](index.py) actúa como punto de entrada o índice para explorar los ejercicios, y [algoritmo.py](algoritmo.py) contiene utilidades o implementaciones auxiliares reutilizables.
 
 
+Ejercicios (archivo — nombre descriptivo):
+
+- `ejercicio2.py` — Área de un rectángulo: calcula el área dado base y altura.
+- `ejercicio3.py` — Conversión de temperatura: convierte Celsius a Fahrenheit.
+- `ejercicio4.py` — Salario semanal: calcula salario por horas trabajadas.
+- `ejercicio5.py` — Salario con horas extra: calcula salario con pago 150% por horas extra (>40).
+- `ejercicio6.py` — Par o impar: determina si un número entero es par o impar.
+- `ejercicio7.py` — Verificar mayoría de edad: indica si una persona es mayor o menor de edad.
+- `ejercicio8.py` — Descuento por compra: aplica 10% de descuento si la compra supera cierto monto.
+- `ejercicio9.py` — Calcular IVA (19%): calcula el IVA y el total con impuesto.
+- `ejercicio10.py` — Total de compra de N productos: suma precios ingresados.
+- `ejercicio11.py` — Comisión simple (5%): calcula la comisión sobre ventas.
+- `ejercicio12.py` — Comisión escalonada: aplica 10% si supera cierto umbral, sino 5%.
+- `ejercicio13.py` — Promedio de tres notas y resultado: calcula promedio y decide aprobación.
+- `ejercicio14.py` — Nota definitiva ponderada: calcula nota final con pesos (30/30/40).
+- `ejercicio15.py` — Determinar el mayor de dos números (o igualdad).
+- `ejercicio16.py` — Par o impar (variación): otra implementación para determinar paridad.
+- `ejercicio17.py` — Calcular edad: a partir de año de nacimiento y año actual.
+- `ejercicio18.py` — Clasificación por edad: menor, adulto o adulto mayor.
+- `ejercicio19.py` — Conversión de moneda: pesos a dólares según tasa ingresada.
+- `ejercicio20.py` — Interés simple: calcula interés y total a pagar.
+- `ejercicio21.py` — Interés compuesto: calcula el monto final con capital, tasa y períodos.
+- `ejercicio22.py` — Inventario final: calcula stock final tras ventas y recepciones.
+- `ejercicio23.py` — Costo de envío según peso: tarifa según rango de peso.
+- `ejercicio24.py` — Factura de agua: calcula valor total por consumo y precio por m³.
+- `ejercicio25.py` — Total y promedio de ventas diarias: suma ventas y calcula promedio.
+- `algoritmo.py` — Funciones y ejemplos: utilidades y ejemplos de ejercicios (suma, promedio, etc.).
+- `index.py` — Menú/índice para ejecutar los ejercicios desde un menú en consola.
+
+Cómo usar
+
+1. Asegúrate de tener Python 3 instalado.
+2. Abrir una terminal en la carpeta del proyecto.
+3. Ejecutar un ejercicio concreto, por ejemplo:
+
+```
+python ejercicio1.py
+```
+
+O ejecutar el índice:
+
+```
+python index.py
+```
+
+Notas
+
+- Los archivos están escritos en Python 3 y cada `ejercicioN.py` corresponde a la solución del ejercicio N.
+- El archivo `index.py` permite ejecutar cualquier ejercicio desde un menú interactivo.
+- Si quieres, puedo añadir ejemplos de ejecución, descripciones más detalladas por ejercicio, pruebas automáticas, un `requirements.txt` o una licencia.
+
+Autor
+- Repositorio generado para el Taller 1.
